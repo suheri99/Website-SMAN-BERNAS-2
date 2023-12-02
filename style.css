@@ -1,43 +1,49 @@
 /* Add CSS styles for mobile responsiveness */
 @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-      color: #333; /* Default text color */
-      font-family: 'Arial', sans-serif; /* Choose an appropriate font */
-    }
-  
-    h1 {
-      font-size: 24px;
-      color: #0066cc; /* Blue color */
-      text-transform: uppercase; /* Uppercase the text */
-    }
-  
-    a {
-      font-size: 16px;
-      color: #990000; /* Dark red color */
-      text-decoration: none; /* Remove underline from links */
-      font-weight: bold; /* Bold font for links */
-    }
-  
-    a:hover {
-      color: #cc0000; /* Red color on hover */
-    }
-  
-    /* Add animation for the logo */
-    .logo img {
-      animation: moveLogo 5s linear infinite;
-    }
-  
-    @keyframes moveLogo {
-      0% {
-        transform: translateX(0);
-      }
-      50% {
-        transform: translateX(100px); /* Adjust the distance the logo moves */
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-  }
-  
+   <span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+.wrapper{
+    background: #cfd9e3;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 70%;
+    margin: 20px;
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
+</span>
