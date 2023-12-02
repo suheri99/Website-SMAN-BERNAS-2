@@ -1,6 +1,4 @@
-/* Add CSS styles for mobile responsiveness */
-@media only screen and (max-width: 600px) {
-   <span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
+<span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
 *{
     margin: 0;
