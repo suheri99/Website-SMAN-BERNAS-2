@@ -1,3 +1,21 @@
+  @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h1 span {
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+    {
+        background-image: url(images/img1.jpg);
+    }
+}
+
 body,html{
     margin: 0;
     padding: 0;
@@ -71,20 +89,4 @@ body,html{
 
 
 
-    @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    h1 span {
-        font-size: 18px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-}
-    {
-        background-image: url(images/img1.jpg);
-    }
-}
+  
