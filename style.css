@@ -67,6 +67,23 @@ body,html{
         background-image: url(images/img5.jpg);
     }
     100%
+
+
+
+
+    @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h1 span {
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
     {
         background-image: url(images/img1.jpg);
     }
