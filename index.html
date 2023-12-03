@@ -1,28 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Change Automatic - Developer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Team Section | By Code Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Tuliskan gaya CSS Anda di sini */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        .wrapper {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .team-mem {
+            flex: 1 1 200px;
+            text-align: center;
+        }
+
+        .team-mem img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        /* Responsive styles for mobile */
+        @media screen and (max-width: 600px) {
+            h2 {
+                font-size: 20px;
+            }
+
+            .team-mem {
+                flex: 1 1 150px;
+            }
+
+            .team-mem img {
+                width: 80px;
+                height: 80px;
+            }
+
+            h4 {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
 <body>
 
-    
-    <div class="Section_top">
-        <div class="content">     
-            
+     <div style="text-align: center;" class="logo">
     <marquee><img src="Logo SMA Bernas.jpg" height="200" width="150" alt="SMA Bernas Logo"></marquee>
-
-            <h1>WELCOM TO SMAN <span>BERNAS BINSUS PROVINSI RIAU</span></h1>
-            <a href="https://suheri99.github.io/PROFILEPANITIA/">HALAMAN SELANJUTNYA</a>
-        </div>
-    </div> 
-
+  </div>
     
-</body>
+    <div class="wrapper">
+        <h2 style="color: blue;">PANITIA UJIAN SMAN BERNAS 2023</h2>
+        <hr>
+        <div class="members">
+            <div class="team-mem">
+                <img src="Kepsek.jpeg">
+                <h2>Hamzah, M.Pd.</h2>
+                <h4>Kepala Sekolah SMAN Bernas</h4>
+            </div>
 
+            <br>
+            <div class="members">
+                <div class="team-mem">
+                    <img src="Sazah Ami.jpeg">
+                    <h2>Rahmi Nurmaya Dewi, S.Pd.</h2>
+                    <h4>Ketua Panitia Ujian</h4>
+                </div>
+
+                <div class="members">
+                    <div class="team-mem">
+                        <img src="Sazah Dwi.jpeg">
+                        <h2>Dwi, S.Pd.</h2>
+                        <h4>Wakil Ketua</h4>
+                    </div>
+
+                    <div class="members">
+                        <div class="team-mem">
+                            <img src="Bro Firman.jpeg">
+                            <h2>firmansyah, S.Pd.</h2>
+                            <h4>Anggota</h4>
+                        </div>
+
+                        <div class="members">
+                            <div class="team-mem">
+                                <img src="Sazah Wilan.jpeg">
+                                <h2>Yastika Wilandri, S.Pd.</h2>
+                                <h4>Anggota</h4>
+                            </div>
+
+                            <div class="members">
+                                <div class="team-mem">
+                                    <img src="Sazah Herda.jpeg">
+                                    <h2>Herdati Nasir, S.Pd.</h2>
+                                    <h4>Anggota</h4>
+                                </div>
+
+                                <div class="members">
+                                    <div class="team-mem">
+                                        <img src="Wan Shof.jpeg">
+                                        <h2>Wan Syafrizal, S.Pd.</h2>
+                                        <h4>Anggota</h4>
+                                    </div>
+
+                                    <div class="members">
+                                        <div class="team-mem">
+                                            <img src="Heri.jpeg">
+                                            <h2>Suheri, S.Pd.</h2>
+                                            <h4>Anggota</h4>
+                                        </div>
+
+            <!-- Menambahkan divs lainnya sesuai dengan struktur yang Anda inginkan -->
+        </div>
+    </div>
+
+    <br>
+    <div style="text-align: center;">
+        <a href="https://suheri99.github.io/Mywebsite/" style="color: red;"><h1>HALAMAN SELANJUTNYA</h1></a>
+    </div>
+</body>
 </html>
